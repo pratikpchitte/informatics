@@ -13,7 +13,7 @@ function Card() {
 
   const headlineStyle = {
     fontFamily: 'Gordita Bold',
-    fontSize: '25px',
+    fontSize: '22px',
     color: 'white',
     wordWrap: 'break-word',
     whiteSpace: 'normal',
