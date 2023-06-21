@@ -1,17 +1,52 @@
-import React from 'react'
+import React from 'react';
 
 function Card() {
+    const numberStyle = {
+        fontFamily: 'Playfair Display',
+        color: 'white',
+        fontWeight: 'regular',
+        fontSize: '35px',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+      };
+
+  const headlineStyle = {
+    fontFamily: 'Gordita Bold',
+    fontSize: '25px',
+    color: 'white',
+    wordWrap: 'break-word',
+    whiteSpace: 'normal',
+    overflowWrap: 'break-word',
+  };
+
+  const pStyle = {
+    fontFamily: 'Roboto Regular',
+    fontSize: '15px',
+    color: 'rgba(209, 220, 231, 0.58)',
+    marginTop: '8px',
+  };
+  
+
+  const divStyle = {
+    borderLeft: '1px solid #718195', // Adjust the border color as needed
+    paddingLeft: '10px', // Adjust the padding as needed
+    marginLeft: '16px', // Adjust the margin as needed
+
+  };
+  
+
   return (
-    <div>
-            <div className="card m-3">
-                <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <button type="button" className="btn btn-primary">Button</button>
-                </div>
-            </div>
+    <div className="container m-3" style={{ display: 'flex', flexDirection: 'row' }}>
+      <div style={numberStyle}>
+        1
+      </div>
+      <div style={divStyle}>
+        <h5 style={headlineStyle}>'Digital ITI' launched by Assam Minister</h5>
+        <p style={pStyle}>March 14, 2023</p>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Card
+export default Card;

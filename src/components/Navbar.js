@@ -11,7 +11,18 @@ export default function Navbar() {
                 <a className="navbar-brand" href="/">
                     <Logo></Logo>
                 </a>            
-                
+
+                <button
+                className="navbar-toggler"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                >
+                <i className="fas fa-bars"></i>
+                </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">

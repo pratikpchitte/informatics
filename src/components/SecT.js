@@ -11,6 +11,14 @@ function SecT() {
         </div>
         <div className="col-lg-4">
           <Card />
+          <hr style={{ border: '1px solid rgba(255, 255, 255, 0.1)' }} />
+          <Card />
+          <hr style={{ border: '1px solid rgba(255, 255, 255, 0.1)' }} />
+          <Card />
+          <hr style={{ border: '1px solid rgba(255, 255, 255, 0.1)' }} />
+          <Card />
+          <hr style={{ border: '1px solid rgba(255, 255, 255, 0.1)' }} />
+          <Card />
         </div>
       </div>
     </div>
