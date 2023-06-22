@@ -1,11 +1,15 @@
 
 import './App.css';
 import Home from './components/Home';
-import * as mdb from 'mdb-ui-kit'; // lib
+import News from './components/News';
+
 
 function App() {
   return (
+    <>
     <Home/>
+    <News/>
+    </>
   );
 }
 
